@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rt.a06_poblacion.MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:text="aaaaaaaaaaaaa"
+        android:textAlignment="viewStart" />
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:footerDividersEnabled="true"
+        android:headerDividersEnabled="true"
+        android:layout_marginTop="29dp"
+        android:layout_below="@+id/tv"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="123dp"
+        android:layout_marginEnd="123dp" />
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/tv"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="128dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginStart="28dp"
+        android:adjustViewBounds="true"
+        android:maxHeight="15dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/ban_alcala" />
+</RelativeLayout>
